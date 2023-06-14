@@ -1,4 +1,4 @@
-const clickButton = document-getElementById('click-button');
+const clickButton = document.getElementById('click-button');
 console.log(clickButton, typeof clickButton);
 
 clickButton.addEventListener('click', 
@@ -20,11 +20,11 @@ if (age < 18) {
      } else {
         x = prezzoBiglietto;
      }
+     console.log(x);
+     document.querySelector('#result').innerHTML = x.toFixed(2);
 }
 );
 
-// console.log(km, typeof km);
-// console.log(age, typeof age);
 
 // if (age < 18) {
 //   x = prezzoBiglietto * 0.8;
