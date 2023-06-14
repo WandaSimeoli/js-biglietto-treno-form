@@ -21,7 +21,7 @@ if (age < 18) {
         x = prezzoBiglietto;
      }
      console.log(x);
-     document.querySelector('#result').innerHTML = x.toFixed(2);
+     document.querySelector('#result').innerHTML = "Il prezzo del tuo biglietto è: €" + x.toFixed(2);
 }
 );
 
